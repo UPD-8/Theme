@@ -1,0 +1,50 @@
+/* Define the color scheme */
+:root {
+  --primary-color: #2f3640;
+  --secondary-color: #455a64;
+  --accent-color: #00bfa5;
+}
+
+/* Set the background image */
+body {
+  background-image: url('https://images5.alphacoders.com/135/thumb-1920-1358958.png');
+  background-size: cover;
+  background-position: center;
+}
+
+/* Customize the typography */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  color: var(--primary-color);
+  text-shadow: 2px 2px 4px var(--accent-color);
+}
+
+/* Add custom icons */
+.icon-kaiju-face {
+  background-image: url('<a href="https://imgbb.com/"><img src="https://i.ibb.co/3sz0Q54/image-2024-09-04-172512370.png" alt="image-2024-09-04-172512370" border="0"></a>');
+  background-size: 24px;
+  background-position: center;
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  border-radius: 50%;
+  border: 2px solid var(--secondary-color);
+}
+
+/* Add a destroyed cityscape effect to the chat window */
+.chat-window {
+  background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.Ql7_TbmIeH0JZQICnfyyvQHaKf%26pid%3DApi&f=1&ipt=f208f72f332c51f24f84fa6bc6c62afbf79794745e08277450c7fcb8f13a0d1c&ipo=images');
+  background-size: cover;
+  background-position: center;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Add a lightning effect to the hover states */
+a:hover, button:hover {
+  background-color: var(--accent-color);
+  color: #fff;
+  text-shadow: 2px 2px 4px var(--primary-color);
+  transition: all 0.2s ease-in-out;
+}
